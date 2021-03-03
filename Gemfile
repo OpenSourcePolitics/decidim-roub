@@ -33,6 +33,8 @@ gem "decidim-term_customizer", git: "https://github.com/OpenSourcePolitics/decid
 
 gem "bootsnap", "~> 1.3"
 
+gem "dotenv-rails"
+
 gem "puma", "~> 4.3"
 gem "uglifier", "~> 4.1"
 
@@ -46,7 +48,6 @@ gem "letter_opener_web", "~> 1.3"
 gem "sprockets", "~> 3.7"
 
 group :development, :test do
-  gem "dotenv-rails"
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "decidim-dev", git: "https://github.com/armandfardeau/decidim", branch: "feature/maximum-number-of-vote-per-project"
